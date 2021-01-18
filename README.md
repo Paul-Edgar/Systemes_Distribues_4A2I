@@ -9,7 +9,7 @@
 2. [Different types de langages](#langages)
 3. [Design Pattern MVC](#MVC)
 4. [Pratique : projet Demo4a2I](#Demo4a2I)
-4. [Installation Maven](#Maven)
+5. [Installation Maven](#Maven)
 
 
 ------------------------
@@ -19,7 +19,7 @@ L'architecture JAVA EE est une architecture utilisée lors du développement d'u
 
 On retrouvera ci-dessous un schéma explicatif de cette architecture
 
-![TEST](https://github.com/Paul-Edgar/Systemes_Distribues_4A2I/blob/main/images/test.png)
+![TEST](https://github.com/Paul-Edgar/Systemes_Distribues_4A2I/blob/main/images/Architecture_JavaEE.jpg)
 
 ## Les différents types de langages <a name="langages"></a>
 - **langage compilé** : Le code source va êtrecompilé, par un compilateur, en un code binaire. Ce code binaire peut être représenté comme le langage machine. Le code binaire est ensuite traité par le système d’exploitation de notre ordinateur.
@@ -37,8 +37,12 @@ On retrouvera ci-dessous un schéma explicatif de cette architecture
 <center> Python , Java , REXX </center>
 
 
-### Desing Patter MVC<a name="MVC"></a>
-This is a sub paragraph, formatted in heading 3 style
+### Design Patter MVC<a name="MVC"></a>
+Ce pattern architectural permet de séparer les _données_ (**modèle**), l'interface _homme-machine_ (**vue**) et le le **controleur**.
+
+On retrouvera ci-dessous un schéma explicatif du **M**odèle **V**ue **C**ontroller
+
+![Design Patter MVC](https://github.com/Paul-Edgar/Systemes_Distribues_4A2I/blob/main/images/MCV.jpg)
 
 ### Pratique : Demo4a2I<a name="Demo4a2I"></a>
 
@@ -78,12 +82,11 @@ Nous avons rencontré quelques problèmes lors du mappage des URL. Les problème
 Avant de les reinstaller nous avons retirer le serveur **Tomcat** du projet et nous l'avons relancé une fois l'ensemble des Servlets et JSP recrés.
 
 
-
-
-
 ## Download/Install Maven <a name="Maven"></a>
-The second paragraph text
+**Apache Maven** est un outil de gestion et d'automatisation de production des projets logiciels **Java**  et **Java EE** . Il est utilisé pour automatiser l'intégration continue lors d'un développement de logiciel. 
 
+...
+ 
 
 
 
