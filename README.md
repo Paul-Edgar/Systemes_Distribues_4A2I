@@ -1,4 +1,4 @@
-<center># Systemes Distribues : 4A2I</center>
+# Systemes Distribues : 4A2I
 
 ### Cours numéro 2 - 18/02/21
 
