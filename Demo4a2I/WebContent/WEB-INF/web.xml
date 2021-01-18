@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+
+<servlet>
+<!--  les deux éléments suivant donne un nom à notre servlet et le package (class) ou se trouve la classe -->
+	<servlet-name>Test</servlet-name>
+	<servlet-class>fr.polytech.nancy.Test</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>Test</servlet-name>
+	<!-- Rediriger sur l'URL de la JSP -->
+	<url-pattern>/test</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>Debut</servlet-name>
+	<servlet-class>fr.polytech.nancy.Debut</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>Debut</servlet-name>
+	<url-pattern>/debut</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>Systemesdistribues</servlet-name>
+	<servlet-class>fr.polytech.nancy.Systemesdistribues</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>Systemesdistribues</servlet-name>
+	<url-pattern>/systemesdistribues</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>Javaee</servlet-name>
+	<servlet-class>fr.polytech.nancy.Javaee</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>Javaee</servlet-name>
+	<url-pattern>/javaee</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>Bigdata</servlet-name>
+	<servlet-class>fr.polytech.nancy.Bigdata</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>Bigdata</servlet-name>
+	<url-pattern>/bigdata</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>Microservices</servlet-name>
+	<servlet-class>fr.polytech.nancy.Microservices</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>Microservices</servlet-name>
+	<url-pattern>/microservices</url-pattern>
+</servlet-mapping>
+
+</web-app>
