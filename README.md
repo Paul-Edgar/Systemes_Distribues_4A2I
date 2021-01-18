@@ -18,7 +18,7 @@ L'architecture JAVA EE est une architecture utilisée lors du développement d'u
 
 On retrouvera ci-dessous un schèma explicatif de cette architecture
 
-![TEST](https://github.com/images/logo.png)
+![TEST](https://github.com/Paul-Edgar/Systemes_Distribues_4A2I/blob/main/images/test.png)
 
 ## Some paragraph <a name="langages"></a>
 The first paragraph text
