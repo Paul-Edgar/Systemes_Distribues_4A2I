@@ -224,10 +224,33 @@ sous eclipse : clic droit, import, general, existingProjectintoWorkspace
 
 ## Cours 4 <a name="cours4"></a>
 
+
 #### SOAP  <a name="SOAP"></a>
 Simple Object Access Protocol de son acronyme **SOAP** est un protocole d'échange d'information structurée dans l'implémentation de services web bâti sur le XML.
 
 ![SOAP](https://github.com/Paul-Edgar/Systemes_Distribues_4A2I/blob/main/images/SOAP.png)
+
+#### SOAPUI  <a name="SoapUI"></a>
+
+SoapUI est une application open source permettant le test de web service dans une architecture orientée services. Ses fonctionnalités incluent l'inspection des web service, des tests de fonctionnel, etc.
+
+Nous utilisons l'application SOAPUI lorsque nous utilisons un service SOAP. 
+
+Mise en place de ce service : 
++ On lance notre projet sur eclipse (Serveur et Service)
++ Sur SOAPUI, on clique sur SOAP
++ On nomme le projet et on renseigne le wdsl (url de notre projet une fois en fonctionnement)
++ Si ça fonctionne on retrouvera l'ensemble des méthodes développer sur notre projet.
+
+#### Projet : eclipse + client python  <a name="EclipsePython"></a>
+
+Projet sur GIT : **dossier 25janvier2021**
+On retrouve un service SOAP développé en **JAVA** et un client développé en **Python**.
+
+## Cours 5 <a name="cours5"></a>
+
+
+
 
 
 
