@@ -15,9 +15,16 @@
     3. [Design Pattern MVC](#MVC)
     4. [Pratique : projet Demo4a2I](#Demo4a2I)
 3. [Cours 3](#cours3)
+    1. [Apache Maven](#MV)
+    2. [Pratique : projet Demo4a2IMAVEN](#Demo4a2IMAVEN)
+4. [Cours 4](#cours4)
     1. [SOAP](#SOAP)
-    2. [Apache Maven](#MV)
-    3. [Pratique : projet Demo4a2IMAVEN](#Demo4a2IMAVEN)
+    2. [SOAPUI](#SoapUI)
+    3. [Projet : eclipse + client python](#EclipsePython)
+4. [Cours 5](#cours5)
+    1. [API REST](#AR)
+    2. [Postman](#Postman)
+    3. [Pratique : projet APIREST](#ProjetAPIREST)
 
 ------------------------
 ## Cours 1 <a name="cours1"></a>
@@ -166,11 +173,6 @@ Avant de les reinstaller nous avons retirer le serveur **Tomcat** du projet et n
 
 ## Cours 3 <a name="cours3"></a>
 
-#### SOAP  <a name="SOAP"></a>
-Simple Object Access Protocol de son acronyme **SOAP** est un protocole d'échange d'information structurée dans l'implémentation de services web bâti sur le XML.
-
-![SOAP](https://github.com/Paul-Edgar/Systemes_Distribues_4A2I/blob/main/images/SOAP.png)
- 
 #### Apache Maven <a name="MV"></a>
 **Apache Maven** est un outil de gestion et d'automatisation de production des projets logiciels **Java**  et **Java EE** . Il est utilisé pour automatiser l'intégration continue lors d'un développement de logiciel.
 
@@ -219,6 +221,13 @@ sous eclipse : clic droit, import, general, existingProjectintoWorkspace
 3. 
 
 + mvn site (creer un dossier site, soit les pages hmtl et css ou java dispo pour notre projet)
+
+## Cours 4 <a name="cours4"></a>
+
+#### SOAP  <a name="SOAP"></a>
+Simple Object Access Protocol de son acronyme **SOAP** est un protocole d'échange d'information structurée dans l'implémentation de services web bâti sur le XML.
+
+![SOAP](https://github.com/Paul-Edgar/Systemes_Distribues_4A2I/blob/main/images/SOAP.png)
 
 
 
