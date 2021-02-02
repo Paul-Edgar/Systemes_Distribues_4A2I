@@ -249,6 +249,35 @@ On retrouve un service SOAP développé en **JAVA** et un client développé en 
 
 ## Cours 5 <a name="cours5"></a>
 
+#### API REST  <a name="AR"></a>
+
+On peut dissocier les deux termes **API REST**
+
+**A**pplication **P**rogramming **I**nterface de son acronyme (**API**) : est un ensemble de définitions et de protocole qui facilite la création et l'intégration de logiciels d'applications. 
+
+
+Une **API** permet à notre produit ou service de communiquer avec d'autres produits et services sans connaitre les détails de leur mise en oeuvre.
+
+![TEST](https://github.com/Paul-Edgar/Systemes_Distribues_4A2I/blob/main/images/API.png)
+
+**R**epresentational **S**tate **T**ransfer de son acronyme REST représente une **architecture logicielle** qui définit enesemble deux contraintes pour la création de services. Le **client** est la personne application frontale ou mobile qui utilise et consomme les ressources de l'API. Les **ressources** sont les données **exposées** par notre API. 
+Sur une API Rest les requêtes s'effectuent sur l'URL d'une ressource, puis les ressources récupérées sous le format JSON, XML...
+
+![TEST](https://github.com/Paul-Edgar/Systemes_Distribues_4A2I/blob/main/images/api-rest-architecture.png)
+
+ **GET, POST, PUT, DELETE : le protocol HTTP**
+
+ Les API REST sont basées sur HTTP, qui signifie Hypertext Transfer Protocol. Les échanges sont basés sur les requêtes du client à l'API via des requêtes de différents types. 
+
+ + **GET** : récupérer des données à partir d'une ressource
+ + **POST** : envoyer des données à traiter à une ressource spécifique
+ + **PUT** : mettre à jour une ressource spécifiée
+ + **DELETE** : supprimer une ressource spécifiée
+
+#### Postman  <a name="Postman"></a>
+
+#### Pratique : projet APIREST  <a name="ProjetAPIREST"></a>
+
 
 
 
