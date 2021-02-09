@@ -18,6 +18,13 @@ public class AnimalManager
         session.beginTransaction();
         session.save(animal.getMaitre());
         session.getTransaction().commit();
+        if(animal.getZoo().getId() == 0) {
+            session.beginTransaction();
+            session.save(animal.getZoo());
+            session.getTransaction().commit();
+        }
+        animal.setPoids(800);
+
         session.beginTransaction();
         session.save(animal);
         session.getTransaction().commit();

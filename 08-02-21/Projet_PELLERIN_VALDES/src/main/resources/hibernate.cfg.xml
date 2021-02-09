@@ -18,5 +18,6 @@
 
         <mapping class="fr.polytech.Projet.Servlet.Animal"/>
         <mapping class="fr.polytech.Projet.Servlet.Maitre"/>
+        <mapping class="fr.polytech.Projet.Servlet.Zoo"/>
     </session-factory>
 </hibernate-configuration>

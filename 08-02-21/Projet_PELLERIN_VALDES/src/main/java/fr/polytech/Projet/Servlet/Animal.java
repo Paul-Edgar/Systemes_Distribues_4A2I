@@ -21,6 +21,10 @@ public class Animal implements Serializable
     @JoinColumn(name = "id_maitre", referencedColumnName = "id")
     private Maitre maitre;
 
+    @ManyToOne
+    @JoinColumn(name = "id_zoo", referencedColumnName = "id")
+    private Zoo zoo;
+
     public Animal(int id, String nom, float taille, float poids) {
         this.id = id;
         this.nom = nom;
@@ -71,6 +75,14 @@ public class Animal implements Serializable
 
     public void setMaitre(Maitre maitre) {
         this.maitre = maitre;
+    }
+
+    public Zoo getZoo() {
+        return zoo;
+    }
+
+    public void setZoo(Zoo zoo) {
+        this.zoo = zoo;
     }
 
     @Override

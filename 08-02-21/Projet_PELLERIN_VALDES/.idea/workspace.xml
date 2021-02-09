@@ -10,12 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="711dcc09-8bd9-49ac-9737-27bc9206e2d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projet_PELLERIN_VALDES.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Projet_PELLERIN_VALDES.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/polytech/Projet/Servlet/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/polytech/Projet/Servlet/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/polytech/Projet/Servlet/DBManager/AnimalManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/polytech/Projet/Servlet/DBManager/AnimalManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/polytech/Projet/Servlet/MainServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/polytech/Projet/Servlet/MainServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,6 +188,8 @@
       <workItem from="1612856790441" duration="57000" />
       <workItem from="1612856861857" duration="2033000" />
       <workItem from="1612875170916" duration="1245000" />
+      <workItem from="1612887390587" duration="2586000" />
+      <workItem from="1612890150926" duration="907000" />
     </task>
     <servers />
   </component>
