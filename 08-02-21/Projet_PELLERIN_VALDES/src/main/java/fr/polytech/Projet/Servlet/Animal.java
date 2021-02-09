@@ -18,7 +18,7 @@ public class Animal implements Serializable
     private float poids;
 
     @OneToOne
-    @JoinColumn(name = "maitre", referencedColumnName = "id")
+    @JoinColumn(name = "id_maitre", referencedColumnName = "id")
     private Maitre maitre;
 
     public Animal(int id, String nom, float taille, float poids) {

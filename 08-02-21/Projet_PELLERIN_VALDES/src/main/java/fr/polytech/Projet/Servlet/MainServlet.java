@@ -37,7 +37,7 @@ public class MainServlet extends HttpServlet
     public Response addAnimal(Animal animal)
     {
         AnimalManager pm = new AnimalManager();
-        return Response.ok().entity(animal).build();
+        return Response.status(Response.Status.CREATED).entity(pm.create(animal)).build();
     }
 
     @PUT

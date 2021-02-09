@@ -4,6 +4,7 @@
     <facet type="hibernate" name="Hibernate">
       <configuration>
         <datasource-map>
+          <unit-entry name="hibernate.cfg.xml" />
           <unit-entry name="src:main:resources:hibernate.cfg.xml" />
           <unit-entry name="target:TPRest-1.0:WEB-INF:classes:hibernate.cfg.xml" />
           <unit-entry name="target:classes:hibernate.cfg.xml" />

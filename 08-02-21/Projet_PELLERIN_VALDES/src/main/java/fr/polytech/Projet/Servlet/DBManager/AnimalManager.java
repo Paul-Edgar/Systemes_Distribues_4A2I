@@ -16,10 +16,10 @@ public class AnimalManager
     {
         Session session = HibernateFactory.getSession();
         session.beginTransaction();
-        session.save(animal);
+        session.save(animal.getMaitre());
         session.getTransaction().commit();
         session.beginTransaction();
-        session.save(animal.getMaitre());
+        session.save(animal);
         session.getTransaction().commit();
 
         return animal;
@@ -46,6 +46,9 @@ public class AnimalManager
     {
         Session session = HibernateFactory.getSession();
         session.beginTransaction();
+        session.update(animal.getMaitre());
+        session.getTransaction().commit();
+        session.beginTransaction();
         session.update(animal);
         session.getTransaction().commit();
 
@@ -55,6 +58,9 @@ public class AnimalManager
     public Animal delete(Animal animal)
     {
         Session session = HibernateFactory.getSession();
+        session.beginTransaction();
+        session.delete(animal.getMaitre());
+        session.getTransaction().commit();
         session.beginTransaction();
         session.delete(animal);
         session.getTransaction().commit();
