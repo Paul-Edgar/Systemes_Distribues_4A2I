@@ -10,25 +10,25 @@ Dans ce TP nous avons pu mettre en place une base de donnée. Notre projet REST 
 
 Une relation de type **One-To-One** permet de lier deux objets Java ensemble (ainsi que les données associées en base de données) et de permettre de naviguer d'une instance à l'autre et réciproquement. 
 
-![OneToOne](https://github.com/Paul-Edgar/Systemes_Distribues_4A2I/blob/main/images/Onetoone.png)
+![OneToOne](https://github.com/Paul-Edgar/Systemes_Distribues_4A2I/blob/main/images/One1.PNG)
 
 - **OneToMany**
 
 Une relation de type **One-To-Many** a du sens quand un élément est associé à plusieurs autres éléments.
 
-![OneToOne](https://github.com/Paul-Edgar/Systemes_Distribues_4A2I/blob/main/images/Onetomany.png)
+![OneToOne](https://github.com/Paul-Edgar/Systemes_Distribues_4A2I/blob/main/images/One2.PNG)
 
 - **ManyToOne**
 
 Une relation de type **Many-To-One** a du sens quand plusieurs éléments peuvent être associés à un même élément.
 
-![OneToOne](https://github.com/Paul-Edgar/Systemes_Distribues_4A2I/blob/main/images/Manytoone.png)
+![OneToOne](https://github.com/Paul-Edgar/Systemes_Distribues_4A2I/blob/main/images/Many1.PNG)
 
 - **ManyToMany**
 
 Une association de type **Many-To-Many** et requise entre deux entités quand une instance du type de la première entité peut être mise en relation avec un nombre quelconque d'instance de second type et réciproquement.
 
-![OneToOne](https://github.com/Paul-Edgar/Systemes_Distribues_4A2I/blob/main/images/Manytomany.png)
+![OneToOne](https://github.com/Paul-Edgar/Systemes_Distribues_4A2I/blob/main/images/Many2.PNG)
 
 Nous concernant ces relations sont utilisées dans le cas de notre TP ZOO
 

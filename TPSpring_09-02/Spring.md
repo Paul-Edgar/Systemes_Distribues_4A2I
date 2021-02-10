@@ -16,7 +16,7 @@ Deux choix s'offre à nous pour créer un projet spring
 
 On  remplit les informations de la manière suivante pour y avoir recours de la même façon que sur nos anciens TP_REST
 
-![SPRINGio](https://github.com/Paul-Edgar/Systemes_Distribues_4A2I/blob/main/images/springio.png)
+![SPRINGio](https://github.com/Paul-Edgar/Systemes_Distribues_4A2I/blob/main/images/springio.PNG)
 
 - depuis l'IDE IntelliJ 
 
@@ -26,3 +26,5 @@ Il suffit de créer un nouveau projet spring et de suivre de remplir les mêmes 
 Une fois lancé, nous pourrons y avoir accès depuis l'url http://localhost:8080
 
 **ATTENTION** , bien renseigner le port dans les fichiers du projet avant de le lancer
+
+Nous utiliserons Spring et ce TP pour la suite de nos cours de 5ème année.
