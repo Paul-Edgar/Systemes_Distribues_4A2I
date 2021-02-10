@@ -32,8 +32,8 @@ Une association de type **Many-To-Many** et requise entre deux entités quand un
 
 Nous concernant ces relations sont utilisées dans le cas de notre TP ZOO
 
-**@OneToOne** : un animal ne peut avoir qu'un soigneur
-**@OneToMany** : un zoo peut avoir plusieurs animaux
-**@ManyToOne** : plusieurs animaux peuvent appartenir au meme zoo
-**@ManyToMany** : pas encore implémenté mais nous avions comme objectif , un animal peut avoir plusieurs types de nourritures qui peuvent correspondre à différent animaux
+- **@OneToOne** : un animal ne peut avoir qu'un soigneur
+- **@OneToMany** : un zoo peut avoir plusieurs animaux
+- **@ManyToOne** : plusieurs animaux peuvent appartenir au meme zoo
+- **@ManyToMany** : pas encore implémenté mais nous avions comme objectif , un animal peut avoir plusieurs types de nourritures qui peuvent correspondre à différent animaux
 
